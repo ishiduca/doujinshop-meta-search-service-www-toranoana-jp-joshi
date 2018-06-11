@@ -1,0 +1,30 @@
+{
+  "name": "doujinshop-meta-search-service-www-toranoana-jp-joshi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "bin": "bin",
+    "lib": "lib"
+  },
+  "bin": {
+    "metasearch": "./bin/metasearch.js"
+  },
+  "scripts": {
+    "test": "tape t/test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "doujinshop-meta-search-service-www-toranoana-jp": "git+https://github.com/ishiduca/doujinshop-meta-search-service-www-toranoana-jp.git",
+    "inherits": "^2.0.3",
+    "mississippi": "^3.0.0",
+    "trumpet": "^1.7.2",
+    "xtend": "^4.0.1"
+  },
+  "devDependencies": {
+    "minimist": "^1.2.0",
+    "tape": "^4.9.1"
+  }
+}
